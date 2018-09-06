@@ -4,6 +4,9 @@
     left: 500px;
     border: 1px black solid;
 }
+#Bomber{
+    display:none;
+}
 #myCanvas{
     visibility: hidden;
     position: absolute;

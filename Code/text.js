@@ -39,9 +39,9 @@ class Bomber{
         this.xpos =xpos;
         this.ypos =ypos;
 
-    ctx.beginPath();
+    /*ctx.beginPath();
     ctx.arc(xpos*40+20,ypos*40+20,20,0,2*Math.PI);
-    ctx.stroke();
+    ctx.stroke();*/
     }
 }
 for (let i=0; i<15; i++)
@@ -56,13 +56,17 @@ window.grid = grit;
 
 document.addEventListener('keydown', (event) => {
     const keyName = event.key;
+    ypos = window.player1.ypos;
+    xpos = window.player1.xpos;
+    p2x = window.player2.xpos;
+    p2y = window.player2.ypos;
+
     if (keyName == "ArrowUp")
     {
         if(grit[xpos][ypos-1].wall === false){
             grit[xpos][ypos-1].player = true;
             grit[xpos][ypos].player = false;
             ypos= ypos-1;
-            
         }
     }
     if (keyName == "ArrowDown")
@@ -121,13 +125,19 @@ document.addEventListener('keydown', (event) => {
             p2x= p2x+1;
         }
     }
-    if (keyName == "Enter"){
+    if (keyName == "m"){
         grit[xpos][ypos].bombe = true;
+        explosion(xpos,ypos);  
     }
     if (keyName == "x"){
         grit[p2x][p2y].bombe = true;
+        explosion(p2x,p2y);  
     }
-    Main();
+    //Main();
+    window.player1.ypos=ypos;
+    window.player1.xpos=xpos;
+    window.player2.xpos=p2x;
+    window.player2.ypos=p2y;
 });
 
 window.onload = function () {
@@ -151,6 +161,15 @@ function draw(){
            }
        }
    }
+    /*ctx.beginPath();
+    ctx.arc(window.player1.xpos*40+20,window.player1.ypos*40+20,20,0,2*Math.PI);
+    ctx.stroke();
+    ctx.beginPath();
+    ctx.arc(window.player2.xpos*40+20,window.player2.ypos*40+20,20,0,2*Math.PI);
+    ctx.stroke();*/
+    var img = document.getElementById("Bomber");
+    ctx.drawImage(img,window.player1.xpos*40,window.player1.ypos*40, 40,40);
+    ctx.drawImage(img,window.player2.xpos*40,window.player2.ypos*40, 40,40);
 }
 
 function zBloecke(){
@@ -219,23 +238,17 @@ function explosion(x,y,counter){
            GameOver();
         }
     }
-    
     grit[x][y].bombe = false;
-
-    //}
-    //counter = counter+1;
 },1000)}
 
 function loop(){
     ctx.clearRect(0,0,600,600);
     draw();
-    new Bomber(xpos,ypos);
-    new Bomber(p2x,p2y);
     for (let i =0; i<15; i++){
         for (let j=0; j<15; j++){
             if(grit[i][j].bombe === true){
                 bombe(i, j);
-                explosion(i,j);   
+                //explosion(i,j);   
             }
         }
     }
@@ -319,11 +332,11 @@ function start(){
     document.getElementById("menue").style.visibility="hidden";
     document.getElementById("Bombe").style.visibility="hidden";
     zBloecke();
-    Main();
+    window.player1 = new Bomber(xpos,ypos);
+    window.player2= new Bomber(p2x,p2y);
+    setInterval(loop,20);
 }
-function Main(){
-    setInterval(loop(),3000);
-}
+
 function menue(){
     document.getElementById("Start").style.visibility="visible";
     document.getElementById("Controls").style.visibility="visible";
