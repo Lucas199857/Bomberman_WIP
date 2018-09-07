@@ -7,6 +7,22 @@
 #Bomber{
     display:none;
 }
+#Bomb{
+    display:none;
+}
+#Bomb2{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    top: 50px;
+    left: 1050px;
+}
+#Bomber2{
+    display:none;
+}
+#Bomber3{
+    display:none;
+}
 #myCanvas{
     visibility: hidden;
     position: absolute;
@@ -25,17 +41,9 @@
 #Bomberman{
     position: absolute;
     top: 50px;
-    left: 360px;
+    left: 200px;
     font-size: 100px;
     color: whitesmoke;
-}
-
-#time{
-    visibility: hidden;
-    position: absolute;
-    top: 150px;
-    left: 700px;
-    font-size: 30px;
 }
 
 #Controls{
