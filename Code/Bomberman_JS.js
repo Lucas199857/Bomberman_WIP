@@ -304,6 +304,7 @@ function explosion(x,y,counter){
         GameOver();
         verlierer.textContent = "Player 1 has lost";
     }
+    document.getElementById('audiofile').play();
     grit[x][y].bombe = false;
 },1000)}
 
