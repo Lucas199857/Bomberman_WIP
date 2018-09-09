@@ -5,7 +5,7 @@ Ein Multiplayer Spiel für 2 Spieler in Anlehnung an das klassische Bomberman Sp
 
 ## Detailed Game Description
 
-Dieses Multiplayer Spiel ist für 2 Spieler ausgelegt, die gegeneinander spielen. In einem vorgegeben Spielfeld startet der erste Spieler in der oberen linken Ecke und der Zweite Spieler in der oberen rechten Ecke. Durch das platzieren von Bomben können diese die dunklen Blöcke zerstören, um sich den Weg zu dem jeweils anderen Spieler zu ebnen. Die hellen Blöcke bieten dabei Schutz. Das Ziel des Spiels ist es den anderen Spieler mit einer Bombe zu zerstören und so die Spielrunde für sich zu entscheiden. Ein Scoreboard gibt den Spielern außerdem Auskunft darüber, wie viele Bomben sie platziert haben, Blöcke zerstört wurden und wie viele Runden jeder Spieler für sich entscheiden konnte.
+Dieses Multiplayer Spiel ist für 2 Spieler ausgelegt, die gegeneinander spielen. In einem vorgegeben Spielfeld startet der erste Spieler in der oberen linken Ecke und der Zweite Spieler in der oberen rechten Ecke. Durch das platzieren von Bomben können diese die dunklen Blöcke zerstören, um sich den Weg zu dem jeweils anderen Spieler zu ebnen. Die hellen Blöcke bieten dabei Schutz. Das Ziel des Spiels ist es den anderen Spieler mit einer Bombe zu zerstören und so die Spielrunde für sich zu entscheiden. Ein Scoreboard gibt den Spielern außerdem Auskunft darüber, wie viele Bomben sie platziert haben, Blöcke zerstört wurden und wie viele Runden jeder Spieler für sich entscheiden konnte. Um das Scoreboard zurückzusetzen muss zurück ins Menü gegangen und von dort ein neues Spiel gestartet werden.
 
 ## Getting Started
 
