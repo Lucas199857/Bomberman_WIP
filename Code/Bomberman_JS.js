@@ -366,8 +366,8 @@ function GameOver(){
 
 function start(){
     document.getElementById("myCanvas").style.visibility = "visible";
-    document.getElementById("Impressum").style.visibility="hidden";
     document.getElementById("Start").style.visibility="hidden";
+    document.getElementById("Impressum").style.visibility="hidden";
     document.getElementById("GameOver").style.visibility = "hidden";
     document.getElementById("Controls").style.visibility="hidden";
     document.getElementById("Kasten").style.visibility="hidden";
@@ -394,8 +394,8 @@ function menue(){
     document.getElementById("Start").style.visibility="visible";
     document.getElementById("Controls").style.visibility="visible";
     document.getElementById("Kasten").style.visibility="visible";
-    document.getElementById("Bomberman").style.visibility="visible";
     document.getElementById("Impressum").style.visibility="visible";
+    document.getElementById("Bomberman").style.visibility="visible";
     document.getElementById("menue").style.visibility="hidden";
     document.getElementById("GameOver").style.visibility = "hidden";
     document.getElementById("Player1").style.visibility="hidden";
@@ -417,28 +417,8 @@ function menue(){
 }
 function controls(){
     document.getElementById("Start").style.visibility="hidden";
-    document.getElementById("Impressum").style.visibility="hidden";
     document.getElementById("Controls").style.visibility="hidden";
     document.getElementById("Player1").style.visibility="visible";
     document.getElementById("Player2").style.visibility="visible";
     document.getElementById("menue").style.visibility="visible";
-}
-function impressum(){
-    document.getElementById("Start").style.visibility="hidden";
-    document.getElementById("Impressum").style.visibility="hidden";
-    document.getElementById("Bomberman").style.visibility="hidden";
-    document.getElementById("Bomb2").style.visibility="hidden";
-    document.getElementById("Controls").style.visibility="hidden";
-    document.getElementById("Kasten").style.visibility="hidden";
-    document.getElementById("impressum").style.visibility="visible";
-    document.getElementById("menueim").style.visibility="visible";
-}
-
-function menue2(){
-    document.getElementById("Start").style.visibility="visible";
-    document.getElementById("Controls").style.visibility="visible";
-    document.getElementById("Kasten").style.visibility="visible";
-    document.getElementById("Bomberman").style.visibility="visible";
-    document.getElementById("Impressum").style.visibility="visible";
-    document.getElementById("menue").style.visibility="hidden";
 }
