@@ -32,7 +32,7 @@ Eine ausführliche Erklärung der Steuerung lässt sich im Hauptmenü unter Cont
 
 * Das Spiel läuft nicht mit dem Internet Explorer
 * Um das Scoreboard zurückzusetzen, muss zurück ins Menü gegangen und von dort ein neues Spiel gestartet werden
-* Um vom Impressum zurück zum Hauptmenü zu gelangen, muss die Seite aktualisiert werden
+* Um vom Impressum zurück zum Hauptmenü zu gelangen, muss im Browser der "Eine Seite zurück" Button betätigt werden
 
 ### Known Bugs
 
