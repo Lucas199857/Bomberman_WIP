@@ -62,7 +62,7 @@ Die aktuelle Version ist 1.0.0.
 
 ## License
 
-Dieses Projekt ist durch MIT lizensiert.
+Dieses Projekt ist durch [MIT](https://github.com/Lucas199857/Bomberman_WIP/blob/master/LICENSE) lizensiert.
 
 ## Acknowledgments
 
@@ -70,3 +70,4 @@ Dieses Projekt ist durch MIT lizensiert.
 * Bombe im Gameover Bildschirm von www.giphy.com
 * Bombe in Anlehnung an Freepik von www.flaticon.com
 * Bombensound von www.soundbible.com
+* [Pitch Slide](https://github.com/Lucas199857/Bomberman_WIP/blob/master/Pitch%20Slide%20Bomberman.pptx)
