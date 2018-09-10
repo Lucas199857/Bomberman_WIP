@@ -189,3 +189,16 @@
     left: 380px;
     border: 1px black solid;
 }
+
+#Impressum{
+    position: absolute;
+    top: 400px;
+    left: 500px;
+    border: 1px black solid;
+}
+#impressum{
+    visibility: hidden;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
