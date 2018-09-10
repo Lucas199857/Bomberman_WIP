@@ -70,4 +70,7 @@ Dieses Projekt ist durch [MIT](https://github.com/Lucas199857/Bomberman_WIP/blob
 * Bombe im Gameover Bildschirm von www.giphy.com
 * Bombe in Anlehnung an Freepik von www.flaticon.com
 * Bombensound von www.soundbible.com
+
+## Link to our Pitch Slide
+
 * [Pitch Slide](https://github.com/Lucas199857/Bomberman_WIP/blob/master/Pitch%20Slide%20Bomberman.pptx)
