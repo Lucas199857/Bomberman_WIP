@@ -37,6 +37,7 @@ Eine ausführliche Erklärung der Steuerung lässt sich im Hauptmenü unter Cont
 ### Known Bugs
 
 * Die Bombenexplosion wird nicht immer grafisch dargestellt
+* Der Bombensound wird bei mehreren Bomben hintereinander nicht richtig abgespielt
 * In Firefox: Das betätigen der Enter-Taste während des Spiels erzeugt neue zerstörbare Blöcke
 
 ## Tests
@@ -53,7 +54,7 @@ Eine ausführliche Erklärung der Steuerung lässt sich im Hauptmenü unter Cont
 
 ## Versioning
 
-Die aktuelle Version ist 1.0.0.
+Die aktuelle Version ist 1.0.0 und wurde am 10.09.2018 erstellt.
 
 ## Authors
 
