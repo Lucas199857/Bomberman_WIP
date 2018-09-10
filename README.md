@@ -5,7 +5,7 @@ Ein Multiplayer Spiel für 2 Spieler in Anlehnung an das klassische Bomberman Sp
 
 ## Detailed Game Description
 
-Dieses Multiplayer Spiel ist für 2 Spieler ausgelegt, die gegeneinander spielen. In einem vorgegeben Spielfeld startet der erste Spieler in der oberen linken Ecke und der Zweite Spieler in der oberen rechten Ecke. Durch das platzieren von Bomben können diese die dunklen Blöcke zerstören, um sich den Weg zu dem jeweils anderen Spieler zu ebnen. Die hellen Blöcke bieten dabei Schutz. Das Ziel des Spiels ist es den anderen Spieler mit einer Bombe zu zerstören und so die Spielrunde für sich zu entscheiden. Ein Scoreboard gibt den Spielern außerdem Auskunft darüber, wie viele Bomben sie platziert haben, Blöcke zerstört wurden und wie viele Runden jeder Spieler für sich entscheiden konnte. Um das Scoreboard zurückzusetzen muss zurück ins Menü gegangen und von dort ein neues Spiel gestartet werden.
+Dieses Multiplayer Spiel ist für 2 Spieler ausgelegt, die gegeneinander spielen. In einem vorgegeben Spielfeld startet der erste Spieler in der oberen linken Ecke und der Zweite Spieler in der oberen rechten Ecke. Durch das platzieren von Bomben können diese die dunklen Blöcke zerstören, um sich den Weg zu dem jeweils anderen Spieler zu ebnen. Die hellen Blöcke bieten dabei Schutz. Das Ziel des Spiels ist es den anderen Spieler mit einer Bombe zu zerstören und so die Spielrunde für sich zu entscheiden. Ein Scoreboard gibt den Spielern außerdem Auskunft darüber, wie viele Bomben sie platziert haben, Blöcke zerstört wurden und wie viele Runden jeder Spieler für sich entscheiden konnte. 
 
 ## Getting Started
 
@@ -16,21 +16,13 @@ Dieser Abschnitt enthält sämtliche Instruktionen, die benötigt werden, damit 
 * Windows
 * Browser: Google Chrome, Firefox, Microsoft Edge, Vivaldi
 
-```
-Give examples
-```
-
 ### Installing
 
 Ein Download des Code Ordners enthält alle Dateien.
 
-```
-Give the example
-```
-
 ### Spielstart
 
-indexhtml
+Öffnen der index.html in einem der genannten Browser.
 
 ### Controls
 
@@ -38,7 +30,8 @@ Eine ausführliche Erklärung der Steuerung lässt sich im Hauptmenü unter Cont
 
 ### Restrictions
 
-Das Spiel läuft nicht mit dem Internet Explorer.
+* Das Spiel läuft nicht mit dem Internet Explorer.
+* Um das Scoreboard zurückzusetzen muss zurück ins Menü gegangen und von dort ein neues Spiel gestartet werden.
 
 ### Known Bugs
 
@@ -73,6 +66,7 @@ Dieses Projekt ist durch MIT lizensiert.
 
 ## Acknowledgments
 
-* Player in Anlehnung an Matt Hackett of Lost Decade Games, expanded by Cem Kalyoncu
-* Bombe im Gameover Bildschirm in Anlehnung an Giphy
-* Link zur PowerPoint Slide
+* Player in Anlehnung an Matt Hackett of Lost Decade Games, erweitert von Cem Kalyoncu
+* Bombe im Gameover Bildschirm von www.giphy.com
+* Bombe in Anlehnung an Freepik von www.flaticon.com
+* Bombensound von www.soundbible.com
